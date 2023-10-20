@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Enviar params</title>
+</head>
+
+<body>
+	<h1>Ingrese los params</h1>
+	<a th:href="@{/params/parametro(texto='Esto es una prueba de enlace #1')}">Haz clic #1</a>
+	<a th:href="@{/params/parametro(texto='Esto es el 2')}">Haz clic #2</a>
+</body>
+
+</html>
